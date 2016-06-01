@@ -1,0 +1,12 @@
+
+
+Gripper:
+
+rosrun moveit_commander moveit_commander_cmdline.p (hit TAB)
+
+use gripper
+record c
+c[0] = 0.02
+c[1] = 0.02
+go c
+
